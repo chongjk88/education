@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-01-13T05:15:23.398Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" version="15.9.6" etag="ongOu2ErE4uII2tAxcV5" type="github"><diagram id="hwuxaSucG_SLZ2_2KMyp">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-13T06:57:53.026Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" etag="EipZMwsTphfoPgrlgz9G" version="15.9.6" type="github">
+  <diagram id="hwuxaSucG_SLZ2_2KMyp" name="Page-1">
+    <mxGraphModel dx="1435" dy="1308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6eDMnKHMG1o5lIuzCXH--6" value="Headquarters" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="129.8" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6eDMnKHMG1o5lIuzCXH--7" value="Production and Warehouse Facility" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="513.6" y="369.8" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6eDMnKHMG1o5lIuzCXH--9" value="Sales Office" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360.8" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6eDMnKHMG1o5lIuzCXH--13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="279" y="306.8" as="sourcePoint" />
+            <mxPoint x="407" y="237.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6eDMnKHMG1o5lIuzCXH--14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="548" y="311.8" as="sourcePoint" />
+            <mxPoint x="442" y="241.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6eDMnKHMG1o5lIuzCXH--15" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="429" y="219.8" as="sourcePoint" />
+            <mxPoint x="428" y="88.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6eDMnKHMG1o5lIuzCXH--1" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/buildings/Apartments.svg;" vertex="1" parent="1">
+          <mxGeometry x="258" y="249.8" width="54" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="6eDMnKHMG1o5lIuzCXH--5" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="189.8" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6eDMnKHMG1o5lIuzCXH--3" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/buildings/Long_Building.svg;" vertex="1" parent="1">
+          <mxGeometry x="362.3" y="19.999999999999986" width="125.39999999999999" height="129.60000000000002" as="geometry" />
+        </mxCell>
+        <mxCell id="6eDMnKHMG1o5lIuzCXH--8" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/buildings/Building_Cluster.svg;" vertex="1" parent="1">
+          <mxGeometry x="518" y="249.8" width="121.2" height="111" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
