@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" modified="2021-11-26T05:57:55.256Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.34" etag="vURpZj0CduyxWfgO7SV4" version="15.8.6" type="github">
+  <diagram id="rPolu38h2ZuM9sKyxsWa" name="Page-1">
+    <mxGraphModel dx="2272" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="Protection" treeRoot="1" id="7QPvZWE-hLU05uUHE0Ju-4">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
+            <mxGeometry x="-484" y="40" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="7QPvZWE-hLU05uUHE0Ju-3" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="7QPvZWE-hLU05uUHE0Ju-4" target="7QPvZWE-hLU05uUHE0Ju-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPvZWE-hLU05uUHE0Ju-2" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="7QPvZWE-hLU05uUHE0Ju-4" target="7QPvZWE-hLU05uUHE0Ju-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPvZWE-hLU05uUHE0Ju-9" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="7QPvZWE-hLU05uUHE0Ju-4" target="7QPvZWE-hLU05uUHE0Ju-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1712" y="710" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7QPvZWE-hLU05uUHE0Ju-11" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="7QPvZWE-hLU05uUHE0Ju-4" target="7QPvZWE-hLU05uUHE0Ju-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1697" y="700" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7QPvZWE-hLU05uUHE0Ju-5" value="Access Matrix" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-598" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPvZWE-hLU05uUHE0Ju-6" value="Access Control" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-474" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPvZWE-hLU05uUHE0Ju-10" value="Capability-Based Systems" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-351" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPvZWE-hLU05uUHE0Ju-12" value="Language-Based Protection" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-227" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="Security" treeRoot="1" id="7QPvZWE-hLU05uUHE0Ju-13">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+            <mxGeometry x="365" y="40" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="7QPvZWE-hLU05uUHE0Ju-14" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="7QPvZWE-hLU05uUHE0Ju-13" target="7QPvZWE-hLU05uUHE0Ju-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPvZWE-hLU05uUHE0Ju-15" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="7QPvZWE-hLU05uUHE0Ju-13" target="7QPvZWE-hLU05uUHE0Ju-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPvZWE-hLU05uUHE0Ju-16" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="7QPvZWE-hLU05uUHE0Ju-13" target="7QPvZWE-hLU05uUHE0Ju-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-925" y="710" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7QPvZWE-hLU05uUHE0Ju-17" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="7QPvZWE-hLU05uUHE0Ju-13" target="7QPvZWE-hLU05uUHE0Ju-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-910" y="700" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7QPvZWE-hLU05uUHE0Ju-18" value="Cryptography" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="185" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPvZWE-hLU05uUHE0Ju-19" value="User Authentication" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="312" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPvZWE-hLU05uUHE0Ju-20" value="Firewall" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="438" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPvZWE-hLU05uUHE0Ju-21" value="Computer-Security" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="565" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QVPomM1q2dxfqkT5mQXH-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;endArrow=none;endFill=0;" edge="1" parent="1" source="QVPomM1q2dxfqkT5mQXH-10" target="7QPvZWE-hLU05uUHE0Ju-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVPomM1q2dxfqkT5mQXH-10" value="Domain" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-722" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
