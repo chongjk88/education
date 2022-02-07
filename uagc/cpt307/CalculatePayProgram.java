@@ -6,7 +6,7 @@
 * Created by: Chongjun Kim
 * School: The University of Arizona Global Campus
 * Course: CPT307 - Data Structures & Algorithms (INE2206A)
-* Instructor: Michael Hayden
+* Professor: Michael Hayden
 * Due Date: 02-07-2022
 */
 
@@ -17,7 +17,7 @@ import java.text.*;
 
 class MyFrame extends JFrame implements ActionListener {
 
-    // Components of the Form
+    // default components
     private Container c;
     private JLabel title;
     private JLabel name;
@@ -31,11 +31,10 @@ class MyFrame extends JFrame implements ActionListener {
     private JTextArea tout;
     private JLabel res;
 
-    // constructor, to initialize the components
-    // with default values.
+    // constructor initializing the components
     public MyFrame() {
         setTitle("Calculate Pay Program"); // window title
-        setBounds(300, 200, 800, 500);
+        setBounds(300, 200, 780, 500); // window position & size
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setResizable(false);
 
@@ -111,7 +110,7 @@ class MyFrame extends JFrame implements ActionListener {
         // result panel
         tout = new JTextArea();
         tout.setFont(new Font("Arial", Font.PLAIN, 15));
-        tout.setSize(300, 300);
+        tout.setSize(300, 310);
         tout.setLocation(400, 100);
         tout.setLineWrap(true);
         tout.setEditable(false);
@@ -126,6 +125,7 @@ class MyFrame extends JFrame implements ActionListener {
         setVisible(true);
     }
 
+    // validators
     public Boolean validateInput(String input) {
         return !input.isBlank();
     }
@@ -151,6 +151,7 @@ class MyFrame extends JFrame implements ActionListener {
         Double deduct;
         Double net;
 
+        // try catch for validating field entry
         try {
             Double.parseDouble(ropField.getText());
             rop = Double.parseDouble(ropField.getText());
@@ -165,12 +166,14 @@ class MyFrame extends JFrame implements ActionListener {
             hrs = 0;
         }
 
+        // condition for greater than, less than 40 hours
         if (hrs > 40) {
             gross = (Double) (((hrs - 40) * (rop * 1.5)) + (40 * rop));
         } else {
             gross = (Double) (rop * hrs);
         }
 
+        // deductables calcuation
         fed = (Double) (.15 * gross);
         state = (Double) (.0307 * gross);
         medi = (Double) (.0145 * gross);
@@ -178,6 +181,7 @@ class MyFrame extends JFrame implements ActionListener {
         unemp = (Double) (.007 * gross);
         deduct = (Double) (fed + state + medi + social + unemp);
 
+        // net income
         net = (Double) (gross - deduct);
 
         if (e.getSource() == sub) {
@@ -186,28 +190,33 @@ class MyFrame extends JFrame implements ActionListener {
                 dollarFormatter.setMinimumFractionDigits(2);
                 dollarFormatter.setMaximumFractionDigits(2);
 
-                String data = "Employee Name : "
+                String data = " ----------------------------------------------------------" + "\n"
+                        + " Employee Name : "
                         + name + "\n"
-                        + "Rate of pay : "
+                        + " Rate of pay : "
                         + dollarFormatter.format(rop) + "\n"
-                        + "Hours worked : "
-                        + hrs + "\n\n"
-                        + "Gross Pay : "
-                        + dollarFormatter.format(gross) + "\n\n"
-                        + "Federal Tax : "
+                        + " Hours worked : "
+                        + hrs + "\n"
+                        + " ----------------------------------------------------------" + "\n"
+                        + " Gross Pay : "
+                        + dollarFormatter.format(gross) + "\n"
+                        + " ----------------------------------------------------------" + "\n"
+                        + " Federal Tax : "
                         + dollarFormatter.format(fed) + "\n"
-                        + "State Tax : "
+                        + " State Tax : "
                         + dollarFormatter.format(state) + "\n"
-                        + "Medicare : "
+                        + " Medicare : "
                         + dollarFormatter.format(medi) + "\n"
-                        + "Social Security : "
+                        + " Social Security : "
                         + dollarFormatter.format(social) + "\n"
-                        + "Unemployment Insurance : "
+                        + " Unemployment Insurance : "
                         + dollarFormatter.format(unemp) + "\n"
-                        + "Total Deductions : "
+                        + " Total Deductions : "
                         + dollarFormatter.format(deduct) + "\n\n"
-                        + "Net Pay : "
-                        + dollarFormatter.format(net);
+                        + " ================================" + "\n"
+                        + " Net Pay : "
+                        + dollarFormatter.format(net) + "\n"
+                        + " ================================" + "\n";
                 tout.setText(data);
                 tout.setEditable(false);
                 res.setText("Success!!");
@@ -216,7 +225,7 @@ class MyFrame extends JFrame implements ActionListener {
                 res.setText("Please fill in all the fields.");
             }
         }
-
+        // reset button action
         else if (e.getSource() == reset) {
             String emtpy = "";
             nameField.setText(emtpy);
@@ -231,5 +240,7 @@ class MyFrame extends JFrame implements ActionListener {
 public class CalculatePayProgram {
     public static void main(String[] args) throws Exception {
         MyFrame f = new MyFrame();
+        System.out.println(f != null ? "success" : "failed"); // added println for debugging purposes & avoid warning of
+                                                              // variable not being used
     }
 }
