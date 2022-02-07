@@ -42,10 +42,10 @@ class MyFrame extends JFrame implements ActionListener {
         c.setLayout(null);
 
         // form title
-        title = new JLabel("Calculate Pay");
+        title = new JLabel("Calculate Weekly Pay");
         title.setFont(new Font("Arial", Font.PLAIN, 30));
         title.setSize(300, 30);
-        title.setLocation(300, 30);
+        title.setLocation(240, 30);
         c.add(title);
 
         // labels
@@ -211,8 +211,9 @@ class MyFrame extends JFrame implements ActionListener {
                         + dollarFormatter.format(social) + "\n"
                         + " Unemployment Insurance : "
                         + dollarFormatter.format(unemp) + "\n"
+                        + " ----------------------------------------------------------" + "\n"
                         + " Total Deductions : "
-                        + dollarFormatter.format(deduct) + "\n\n"
+                        + dollarFormatter.format(deduct) + "\n"
                         + " ================================" + "\n"
                         + " Net Pay : "
                         + dollarFormatter.format(net) + "\n"
