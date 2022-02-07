@@ -15,7 +15,7 @@ import java.awt.event.*;
 import javax.swing.*;
 import java.text.*;
 
-class MyFrame extends JFrame implements ActionListener {
+class CalculatePayProgramFrame extends JFrame implements ActionListener {
 
     // default components
     private Container c;
@@ -32,7 +32,7 @@ class MyFrame extends JFrame implements ActionListener {
     private JLabel res;
 
     // constructor initializing the components
-    public MyFrame() {
+    public CalculatePayProgramFrame() {
         setTitle("Calculate Pay Program"); // window title
         setBounds(300, 200, 780, 500); // window position & size
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -240,7 +240,7 @@ class MyFrame extends JFrame implements ActionListener {
 
 public class CalculatePayProgram {
     public static void main(String[] args) throws Exception {
-        MyFrame f = new MyFrame();
+        CalculatePayProgramFrame f = new CalculatePayProgramFrame();
         System.out.println(f != null ? "success" : "failed"); // added println for debugging purposes & avoid warning of
                                                               // variable not being used
     }
