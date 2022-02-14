@@ -21,7 +21,7 @@ class SearchProgramFrame extends JFrame implements ActionListener {
     private JLabel title;
     private JLabel searchKey;
     private JTextField searchKeyField;
-    private JButton sub;
+    private JButton submit;
     private JButton reset;
     private JLabel resultText;
 
@@ -54,16 +54,16 @@ class SearchProgramFrame extends JFrame implements ActionListener {
         searchKeyField.setFont(new Font("Arial", Font.PLAIN, 20));
         searchKeyField.setSize(190, 30);
         searchKeyField.setLocation(130, 100);
-        searchKeyField.addActionListener(this);
+        searchKeyField.addActionListener(this); // enable 'enter' keypress
         c.add(searchKeyField);
 
         // submit button
-        sub = new JButton("Submit");
-        sub.setFont(new Font("Arial", Font.PLAIN, 15));
-        sub.setSize(100, 20);
-        sub.setLocation(80, 170);
-        sub.addActionListener(this);
-        c.add(sub);
+        submit = new JButton("Submit");
+        submit.setFont(new Font("Arial", Font.PLAIN, 15));
+        submit.setSize(100, 20);
+        submit.setLocation(80, 170);
+        submit.addActionListener(this);
+        c.add(submit);
 
         // reset button
         reset = new JButton("Reset");
@@ -120,7 +120,7 @@ class SearchProgramFrame extends JFrame implements ActionListener {
             searchKey = 0;
         }
 
-        if (e.getSource() == sub || e.getSource() == searchKeyField) {
+        if (e.getSource() == submit || e.getSource() == searchKeyField) {
             if (validateIntegerInput(searchKey)) {
 
                 Integer result = binarySearch(numbers, 0, size - 1, searchKey);
@@ -147,6 +147,6 @@ public class SearchProgram {
         SearchProgramFrame f = new SearchProgramFrame();
 
         // debugging purposes & avoid warning of variable not being used
-        System.out.println(f != null ? "loaded" : "error");
+        System.out.println(f != null ? "success" : "failed");
     }
 }
