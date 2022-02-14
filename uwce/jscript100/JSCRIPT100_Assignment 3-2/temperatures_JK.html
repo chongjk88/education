@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Assignment 3-2 : Temperatures in Arrays</title>
+</head>
+<body>
+	<p>Please check the console.</p>
+	<script> 
+		// *********************************************
+		// **    Code Author: Jun Kim
+		// **    Date: 10/28/17
+		// **    Description: 
+		// **	- Create a section of code to find the highest temperature during the week.
+		// **	- Create a section of code to find all the days of the week that hit the high temperature of the week. Display the names of the week (e.g. "Sunday", etc.)
+		// **
+		// *********************************************
+		// **    Change Log
+		// **    10/28/17- Created results that show the highest temperature of the week and the days with the highest temperature.
+		// **    
+		// **    
+		// *********************************************
+		
+		// homework
+		var tempsForWeek = [];
+		tempsForWeek[0] = [56, 59, 63, 66, 67, 69, 70, 69, 65, 62, 59, 56]; // Monday
+		tempsForWeek[1] = [57, 59, 61, 64, 67, 69, 70, 71, 71, 69, 67, 64]; // Tuesday
+		tempsForWeek[2] = [58, 60, 62, 64, 66, 68, 69, 70, 70, 69, 62, 57]; // Wednesday
+		tempsForWeek[3] = [57, 56, 69, 62, 65, 66, 68, 68, 70, 69, 59, 52]; // Thursday
+		tempsForWeek[4] = [52, 59, 59, 63, 67, 70, 72, 73, 77, 74, 70, 65]; // Friday
+		tempsForWeek[5] = [60, 58, 62, 64, 69, 70, 74, 75, 77, 77, 74, 72]; // Saturday
+		tempsForWeek[6] = [63, 63, 64, 68, 71, 74, 75, 76, 77, 75, 74, 73]; // Sunday
+
+		// homework:
+		// find the highest temperature of the week.
+		
+		
+		
+		/******************************************************************/
+		// CUSTOM CODE #1 STARTS HERE
+		var highestTemp = 0;
+		var highestArr = [];
+		for(var h=0; h<tempsForWeek.length; h++){
+			for(var j=0; j<tempsForWeek[h].length; j++){
+				if(tempsForWeek[h][j] > highestTemp) {
+					highestTemp = tempsForWeek[h][j]
+				}
+				highestArr[h] = highestTemp;
+			}
+		}
+		// CUSTOM CODE #1 ENDS HERE
+		/******************************************************************/
+		
+		
+		
+		console.log("The highest temperature for the week was: " + highestTemp); // Added variable 'highestTemp' to show on the Console.
+		
+		
+
+		// Create an array of days of the week e.g. ["Monday", "Wednesday"] // that hit that high temperature
+
+		var daysOfWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+		
+		
+		
+		/******************************************************************/
+		// CUSTOM CODE #2 STARTS HERE
+		var find = []; // Created variable in order to check which day contains the highest temperature.
+		find[0] = tempsForWeek[0].indexOf(highestTemp);
+		find[1] = tempsForWeek[1].indexOf(highestTemp);
+		find[2] = tempsForWeek[2].indexOf(highestTemp);
+		find[3] = tempsForWeek[3].indexOf(highestTemp);
+		find[4] = tempsForWeek[4].indexOf(highestTemp);
+		find[5] = tempsForWeek[5].indexOf(highestTemp);
+		find[6] = tempsForWeek[6].indexOf(highestTemp);
+		var days = "";
+		
+		for(var i=0; i<daysOfWeek.length; i++){
+			if (find[i] >= 0) { // Finding the array that has more than one highest temperature.
+				if(i < daysOfWeek.length - 1) {
+					days += daysOfWeek[i] + " "; // Adding spaces in between the days. (tried using .split() but didn't work well..)
+				} else if (i < daysOfWeek.length){
+					days += daysOfWeek[i] + ""; // Making Sunday an exception for having a space on the right.
+				}
+			}
+		}
+		// CUSTOM CODE #2 ENDS HERE
+		/******************************************************************/
+		
+		
+		
+		console.log("Days with highest temp: " + days); // Added variable 'days' to show on the Console.
+	</script>
+</body>
+</html>

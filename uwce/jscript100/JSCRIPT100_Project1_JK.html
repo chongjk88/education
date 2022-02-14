@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Jun's First Project</title>
+</head>
+<body>
+	<p id="welcomeMessage">Jun's First Project</p>
+
+	<script>
+	// *********************************************
+	// **    Code Author:	Jun Kim
+	// **    Date:			10/15/17
+	// **    Description:	Project Part 1 of 7 - JSCRIPT 100
+	// **    
+	// **********************************************
+	// **       Change Log 
+	// **     10/15/17 - Added prompt that asks user's name along with a welcome message (in an alert box).
+	// **     10/09/17 – Added header and changelog. Cliff Knopik
+	// **********************************************
+	
+	// Put script here
+	
+	/*
+	** I have moved the <script> tag in order to execute the 'document' function call.
+	** Please refer to the comments for detailed information.
+	*/
+		
+		//Variable for the prompt pop-up.
+		var name = prompt("Please enter your name below"), //This is the prompt itself that asks for the user's name.
+			wrong = "Please refresh and try again..", //This is the message that shows when you enter nothing in the prompt.
+			correct = "Welcome" + " " + name + "!"; //This is the message that shows when you enter at least something.
+		
+		
+		//Calling the prompt into action.
+		if(name.length == 0){
+			alert(wrong); //Calling the 'wrong' variable for when the user submits a blank.
+		} else if(name.length > 1){
+			alert(correct); //Displaying a welcome message with the entered name diplaying.
+			welcome = document.getElementById("welcomeMessage").innerHTML = "This is" + " " + name + "'s playground." //This changes the body text once the user enter's his/her name.
+		}
+		
+	</script>
+</body>
+</html>
