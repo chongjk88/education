@@ -23,13 +23,12 @@ class SearchProgramFrame extends JFrame implements ActionListener {
     private JTextField searchKeyField;
     private JButton sub;
     private JButton reset;
-    private JTextArea tout;
     private JLabel resultText;
 
     // constructor initializing the components
     public SearchProgramFrame() {
-        setTitle("Calculate Pay Program"); // window title
-        setBounds(300, 200, 780, 500); // window position & size
+        setTitle("Search Program"); // window title
+        setBounds(300, 200, 400, 350); // window position & size
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setResizable(false);
 
@@ -37,10 +36,10 @@ class SearchProgramFrame extends JFrame implements ActionListener {
         c.setLayout(null);
 
         // form title
-        title = new JLabel("Calculate Weekly Pay");
+        title = new JLabel("Binary Search");
         title.setFont(new Font("Arial", Font.PLAIN, 30));
         title.setSize(300, 30);
-        title.setLocation(240, 30);
+        title.setLocation(100, 30);
         c.add(title);
 
         // labels
@@ -54,14 +53,15 @@ class SearchProgramFrame extends JFrame implements ActionListener {
         searchKeyField = new JTextField();
         searchKeyField.setFont(new Font("Arial", Font.PLAIN, 20));
         searchKeyField.setSize(190, 30);
-        searchKeyField.setLocation(180, 100);
+        searchKeyField.setLocation(130, 100);
+        searchKeyField.addActionListener(this);
         c.add(searchKeyField);
 
         // submit button
         sub = new JButton("Submit");
         sub.setFont(new Font("Arial", Font.PLAIN, 15));
         sub.setSize(100, 20);
-        sub.setLocation(100, 300);
+        sub.setLocation(80, 170);
         sub.addActionListener(this);
         c.add(sub);
 
@@ -69,15 +69,16 @@ class SearchProgramFrame extends JFrame implements ActionListener {
         reset = new JButton("Reset");
         reset.setFont(new Font("Arial", Font.PLAIN, 15));
         reset.setSize(100, 20);
-        reset.setLocation(220, 300);
+        reset.setLocation(200, 170);
         reset.addActionListener(this);
         c.add(reset);
 
         // result text
         resultText = new JLabel("");
         resultText.setFont(new Font("Arial", Font.PLAIN, 20));
-        resultText.setSize(500, 25);
-        resultText.setLocation(50, 380);
+        resultText.setSize(400, 25);
+        resultText.setLocation(0, 230);
+        resultText.setHorizontalAlignment(JTextField.CENTER);
         c.add(resultText);
 
         setVisible(true);
@@ -119,17 +120,16 @@ class SearchProgramFrame extends JFrame implements ActionListener {
             searchKey = 0;
         }
 
-        if (e.getSource() == sub) {
+        if (e.getSource() == sub || e.getSource() == searchKeyField) {
             if (validateIntegerInput(searchKey)) {
 
                 Integer result = binarySearch(numbers, 0, size - 1, searchKey);
                 if (result == -1)
-                    resultText.setText("Element not present");
+                    resultText.setText(searchKey + " was not found.");
                 else
-                    resultText.setText("Element found at " + "index " + result);
+                    resultText.setText(searchKey + " was found.");
 
             } else {
-                tout.setText("");
                 resultText.setText("Please fill in a number.");
             }
         }
@@ -137,6 +137,7 @@ class SearchProgramFrame extends JFrame implements ActionListener {
         else if (e.getSource() == reset) {
             String emtpy = "";
             searchKeyField.setText(emtpy);
+            resultText.setText(emtpy);
         }
     }
 }
@@ -144,7 +145,8 @@ class SearchProgramFrame extends JFrame implements ActionListener {
 public class SearchProgram {
     public static void main(String[] args) throws Exception {
         SearchProgramFrame f = new SearchProgramFrame();
-        System.out.println(f != null ? "success" : "failed"); // added println for debugging purposes & avoid warning of
-                                                              // variable not being used
+
+        // debugging purposes & avoid warning of variable not being used
+        System.out.println(f != null ? "loaded" : "error");
     }
 }
