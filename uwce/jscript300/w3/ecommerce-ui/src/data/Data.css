@@ -1,0 +1,37 @@
+.listingWrapper {
+  margin: 20px;
+}
+
+.cardWrapper {
+  width: 313px;
+  float: left;
+  margin: 30px;
+}
+
+.houseInfoWrapper > h2 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.houseInfoWrapper > p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.houseImgWrapper {
+  overflow: hidden;
+  height: 200px;
+  position: relative;
+}
+  .houseImg {
+    width: 100%;
+  }
+  .housePrice {
+    position: absolute;
+    background: rgba(255,255,255,0.8);
+    padding: 5px;
+    top: -5px;
+  }
+
+.addCartButton {
+  margin-top: 10px;
+}

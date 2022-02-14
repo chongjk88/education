@@ -1,0 +1,153 @@
+.cardWrapper {
+  float: left;
+  width: 558px;
+  border: 1px solid #eeeeee;
+  margin: 20px;
+  border-radius: 3px;
+}
+
+.cardWrapper2 {
+  width: 358px;
+}
+
+.cardImgWrapper {
+  width: 240px;
+  height: 300px;
+  overflow: hidden;
+  float: left;
+}
+
+.cardImgWrapper2 {
+  width: 100%;
+  height: 120px;
+  position: relative;
+}
+
+.cardImg {
+  height: 100%;
+}
+
+.cardImg2 {
+  width: 100%;
+  position: absolute;
+  bottom: -32px;
+  height: auto;
+}
+
+.cardInfoWrapper {
+  padding: 20px;
+  width: 278px;
+  height: 260px;
+  float: right;
+  position: relative;
+}
+
+.cardInfoWrapper2 {
+  width: 89%;
+  float: inherit;
+  height: 160px;
+
+}
+
+.cardIcon {
+  margin: 0 0 15px;
+  font-size: 14px;
+  color: #777777;
+}
+
+.cardAudio {
+  float: left;
+}
+
+.cardMember2 {
+  float: right;
+}
+
+.cardInfoWrapper > h2 {
+  line-height: 1.2;
+  margin: 0;
+  font-size: 20px;
+  clear: both;
+}
+
+.cardInfoWrapper > p {
+  font-size: 16px;
+  color: #777777;
+  height: 260px;
+  position: relative;
+}
+
+.cardInfoWrapper2 > p {
+  height: initial;
+}
+
+.cardAuthorWrapper {
+  position: absolute;
+  bottom: 10px;
+  font-size: 14px;
+}
+
+.cardAuthorImgWrapper {
+  overflow: hidden;
+  border-radius: 50px;
+  width: 55px;
+  height: 55px;
+  float: left;
+}
+
+.isMember::before {
+  width: 67px;
+  height: 67px;
+  border-radius: 110px;
+  border-top-right-radius: 110px;
+  border: 1px solid #6BA292;
+  content: "";
+  position: absolute;
+  top: -7px;
+  left: -7px;
+  z-index: 0;
+}
+
+.isMember::after {
+  width: 74px;
+  height: 37px;
+  background: #ffffff;
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: -7px;
+  z-index: 1;
+}
+
+.cardAuthorImg {
+  width: 55px;
+  position: relative;
+  z-index: 1000;
+}
+
+.cardAuthorNameWrapper {
+  margin-left: 70px;
+  padding-top: 5px;
+  line-height: 1.5;
+}
+
+.cardAuthorName {
+  margin: 0;
+  padding: 0;
+}
+
+.cardAuthorDate {
+  color: #777777;
+}
+
+.bookmark {
+  position: absolute;
+  top: 10px;
+  right: -80px;
+  font-size: 20px;
+  color: #777777;
+}
+
+.bookmark2 {
+  right: -120px;
+}
