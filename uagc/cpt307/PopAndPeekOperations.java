@@ -30,7 +30,7 @@ public class PopAndPeekOperations
         {
             Integer temp = initialStack.pop(); // pop the top element into a variable
 
-            while (!sortedStack.isEmpty() && // check if the sorted Stack is empty
+            while (!sortedStack.isEmpty() && // check if the sorted Stack is not empty
                     sortedStack.peek() > temp) // AND if the top element is greater
             {
                 initialStack.push(sortedStack.pop()); // push the top element from sorted Stack to the initial Stack
