@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-02T06:11:11.959Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="HNt3WXWgsGobeOFZrRra" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-02T07:06:13.195Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="7Tzv-QVj_d_3ZBGiTazl" version="18.1.1" type="github">
   <diagram id="eYOYkEPsEBzTeByYnB5C" name="Page-1">
     <mxGraphModel dx="981" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -46,13 +46,13 @@
         <mxCell id="jf8nKrpKMdaa8RKN1ZkS-8" value="Product Owner" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="280" y="490" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jf8nKrpKMdaa8RKN1ZkS-9" value="Managing the scrum backlog" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jf8nKrpKMdaa8RKN1ZkS-9" value="Managing the &lt;br&gt;scrum backlog" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="235" y="360" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jf8nKrpKMdaa8RKN1ZkS-11" value="stakeholder management" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jf8nKrpKMdaa8RKN1ZkS-11" value="Stakeholder management" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="600" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jf8nKrpKMdaa8RKN1ZkS-12" value="Release management" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jf8nKrpKMdaa8RKN1ZkS-12" value="Release&lt;br&gt;management" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="600" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jf8nKrpKMdaa8RKN1ZkS-15" value="Development Team" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
