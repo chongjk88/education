@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-07T23:29:37.245Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44" etag="oWbiWHZIMYWM9dnfQpgG" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-07T23:35:16.063Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44" etag="9KuNRUCGUfLl9Na10xWT" version="20.0.4" type="github">
   <diagram id="8-PPb_PbNQNjeGsZgwIK" name="Page-1">
     <mxGraphModel dx="1422" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
             <mxRectangle x="240" y="320" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ojAxrWv15E8cgkFpI9i7-10" value="s_id&#xa;s_salary&#xa;s_role" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="ojAxrWv15E8cgkFpI9i7-9" vertex="1">
+        <mxCell id="ojAxrWv15E8cgkFpI9i7-10" value="s_id&#xa;s_salary&#xa;s_role&#xa;s_shift" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="ojAxrWv15E8cgkFpI9i7-9" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ojAxrWv15E8cgkFpI9i7-11" value="Student" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
