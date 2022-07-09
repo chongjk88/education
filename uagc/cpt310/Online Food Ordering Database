@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-09T20:10:17.301Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49" etag="nnGN0TEPYMsMjFgmd0TG" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-09T21:52:24.369Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49" etag="kukXKdNyjXcj7fE18GyB" version="20.0.4" type="github">
   <diagram id="daMcsMCgge2j69L-oHGi" name="Page-1">
     <mxGraphModel dx="1422" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -24,6 +24,36 @@
         </mxCell>
         <mxCell id="esYCBYpA6FLlUhEmffvV-9" value="Attribute" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
           <mxGeometry x="380" y="210" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="esYCBYpA6FLlUhEmffvV-10" value="Customer" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="80" y="360" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="esYCBYpA6FLlUhEmffvV-11" value="Places" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="220" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="esYCBYpA6FLlUhEmffvV-12" value="Order" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="380" y="360" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="esYCBYpA6FLlUhEmffvV-13" value="Delivery" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="290" y="710" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="esYCBYpA6FLlUhEmffvV-15" value="Generates" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="520" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="esYCBYpA6FLlUhEmffvV-16" value="Receipt" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="680" y="360" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="esYCBYpA6FLlUhEmffvV-17" value="Notifies" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="370" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="esYCBYpA6FLlUhEmffvV-18" value="Starts" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="esYCBYpA6FLlUhEmffvV-19" value="Vendor" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="290" y="530" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="esYCBYpA6FLlUhEmffvV-20" value="Administrator" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="460" y="530" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
