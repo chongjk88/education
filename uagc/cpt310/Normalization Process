@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-15T19:12:49.548Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49" etag="AvsgDdlOiwQBejoLgfdX" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-15T19:15:32.440Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49" etag="5WeXLVlEuflVmkupfJpa" version="20.1.1" type="github">
   <diagram id="RFluuTnViAo2W52vCgul" name="Page-1">
-    <mxGraphModel dx="2188" dy="1418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1778" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1291,7 +1291,7 @@
             <mxRectangle width="118" height="34" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fXccRkkM3dlzTTP2P8BS-170" value="payment complete" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="fXccRkkM3dlzTTP2P8BS-167">
+        <mxCell id="fXccRkkM3dlzTTP2P8BS-170" value="order complete" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="fXccRkkM3dlzTTP2P8BS-167">
           <mxGeometry x="236" width="118" height="34" as="geometry">
             <mxRectangle width="118" height="34" as="alternateBounds" />
           </mxGeometry>
@@ -1314,7 +1314,7 @@
             <mxRectangle width="118" height="33" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fXccRkkM3dlzTTP2P8BS-175" value="payment complete" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="fXccRkkM3dlzTTP2P8BS-172">
+        <mxCell id="fXccRkkM3dlzTTP2P8BS-175" value="order complete" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="fXccRkkM3dlzTTP2P8BS-172">
           <mxGeometry x="236" width="118" height="33" as="geometry">
             <mxRectangle width="118" height="33" as="alternateBounds" />
           </mxGeometry>
