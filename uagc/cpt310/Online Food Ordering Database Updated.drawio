@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-18T00:08:56.460Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62" etag="tY05KfL4rji24XU69Anh" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-18T00:09:55.604Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62" etag="y40w31BhQG152ya1VVp0" version="20.1.1" type="github">
   <diagram id="daMcsMCgge2j69L-oHGi" name="Page-1">
-    <mxGraphModel dx="1513" dy="2520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-877" dy="1085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1231,6 +1231,12 @@
         </mxCell>
         <mxCell id="pmI39tuYQiSgsGGNADnY-861" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;endArrow=ERone;endFill=0;" parent="1" source="pmI39tuYQiSgsGGNADnY-591" target="pmI39tuYQiSgsGGNADnY-858" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x5WNU8QbpUV0yFK7Ukca-1" value="&lt;h2&gt;Database After Normalization&lt;/h2&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="960" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x5WNU8QbpUV0yFK7Ukca-2" value="&lt;h2&gt;Database Before Normalization&lt;/h2&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="80" width="340" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
